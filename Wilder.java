@@ -2,9 +2,25 @@ package exoPOO;
 
 public class Wilder {
 
-	public String name;
-	public boolean aware;
+	private String name;
+	private boolean aware;
 	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public boolean isAware() {
+		return aware;
+	}
+
+	public void setAware(boolean aware) {
+		this.aware = aware;
+	}
+
 	public Wilder(String name,boolean aware) {
 		this.name = name;
 		this.aware = aware;
